@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es6",                     // Sæt den version af JavaScript, som TypeScript skal transpile til
+      "module": "commonjs",                // Sæt modul systemet (kan være "es6", "commonjs", etc.)
+      "outDir": "./dist",                  // Angiv mappen, hvor transpilerede filer skal gemmes
+      "rootDir": "./src",                  // Angiv roden af din kildekode
+      "strict": true,                       // Aktivér alle strenge kontroller
+      "esModuleInterop": true               // Gør det nemmere at arbejde med CommonJS-moduler
+    },
+    "include": [
+      "src/**/*"                            // Inkluder alle TypeScript-filer i src-mappen
+    ],
+    "exclude": [
+      "node_modules",                       // Udeluk node_modules-mappen
+      "**/*.spec.ts"                        // Udeluk testfiler
+    ]
+  }
+  
