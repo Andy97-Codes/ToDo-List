@@ -1,0 +1,13 @@
+{
+    "name": "my-todo-app",
+    "version": "1.0.0",
+    "description": "A simple ToDo application",
+    "main": "src/backend/app.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "devDependencies": {},
+    "author": "Andreas",
+    "license": "MIT"
+}
